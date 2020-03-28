@@ -1,0 +1,37 @@
+a{
+    color: black;
+}
+a:hover{
+    color: grey;
+    text-decoration: none;
+}
+body{
+    background-color: #ffffff;
+}
+h1{
+    font-family: 'Montserrat-black',sans-serif;
+    font-weight: bolder;
+}
+.banner{
+    background-color: #ffffff;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+.navbar{
+    background-color: none;
+    padding-top: 30px;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 30px;
+}
+div.navlinks a{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer{
+    margin: 0px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
