@@ -7,7 +7,7 @@ a{
 .all{
     overflow: hidden;
     background-color: black;
-    animation: bgcolor 20s linear infinite;
+    animation: bgcolor 60s linear infinite;
 }
 a:hover{
     color: grey;
