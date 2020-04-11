@@ -7,7 +7,7 @@ a{
 .all{
     overflow: hidden;
     background-color: black;
-    animation: bgcolor 30s linear infinite;
+    animation: bgcolor 20s linear infinite;
 }
 a:hover{
     color: grey;
@@ -54,6 +54,13 @@ h2{
     -ms-hyphens: auto;
     -o-hyphens: auto;
     hyphens: auto;
+}
+.banner-quote{
+    position: relative;
+    bottom: 300px;
+    margin-top: 40px;
+    transform: scale(2.5);
+    font-weight: normal;
 }
 .title{
     font-weight: bold;
@@ -208,33 +215,115 @@ button{
     }
 }*/
 
+/*Sample 1*/
+
+/*@keyframes bgcolor { 
+    0% {
+        background-color: #FF8A65;
+    }
+    14.2%{
+        background-color: #FBE9E7;
+    }
+    28.4%{
+        background-color: #FFCC80;
+    }
+    42.6% {
+        background-color: #E6EE9C;
+    }
+    56.8%{
+        background-color: #AED581;
+    }
+    71% {
+        background-color: #80DEEA;
+    }
+    85.2% {
+        background-color: #7E57C2;
+    }
+    100%{
+        background-color: #FF8A65;
+    }
+}*/
+
+/*Sample 2*/
+
+/*@keyframes bgcolor {
+    0% {
+        background-color: #E74C3C;
+    }
+    14.2%{
+        background-color: #F1948A;
+    }
+    28.4%{
+        background-color: #F8C471;
+    }
+    42.6% {
+        background-color: #DCE775;
+    }
+    56.8%{
+        background-color: #AED581;
+    }
+    71% {
+        background-color: #1E88E5;
+    }
+    85.2% {
+        background-color: #AB47BC;
+    }
+    100%{
+        background-color: #E74C3C;
+    }
+}*/
+/*
 @keyframes bgcolor {
     0% {
-        background-color: rgb(112, 199, 255);
+        background-color: #268bd4;
     }
-    12.5%{
-        background-color: rgb(0, 173, 123);
+    14.2%{
+        background-color: #190f80;
     }
-    25%{
-        background-color: rgb(206, 141, 252);
+    28.4%{
+        background-color: #650a8f;
     }
-    37.5% {
-        background-color: rgb(255, 193, 8);
+    42.6% {
+        background-color: #ab0c93;
     }
-    50%{
-        background-color: rgb(112, 199, 255);
+    56.8%{
+        background-color: #d4155b;
     }
-    62.5% {
-        background-color: rgb(0, 173, 123);
+    71% {
+        background-color: #de1212;
     }
-    75% {
-        background-color: rgb(206, 141, 252);
+    85.2% {
+        background-color: #db7c0f;
     }
-    87.5%{
-        background-color: rgb(255, 193, 8);
+    100%{
+        background-color: #268bd4;
     }
-    100% {
-        background-color: rgb(112, 199, 255);
+}*/
+
+@keyframes bgcolor {
+    0% {
+        background-color: #E74C3C;
+    }
+    14.2%{
+        background-color: rgb(156, 41, 28);
+    }
+    28.4%{
+        background-color: rgb(238, 147, 0);
+    }
+    42.6% {
+        background-color: #157a29;
+    }
+    56.8%{
+        background-color: rgb(96, 163, 19);
+    }
+    71% {
+        background-color: rgb(26, 115, 194);
+    }
+    85.2% {
+        background-color: #AB47BC;
+    }
+    100%{
+        background-color: #E74C3C;
     }
 }
 
