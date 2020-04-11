@@ -77,6 +77,12 @@ h2{
     padding-left: 10px;
     padding-right: 10px;
 }
+.nav-item{
+    margin: 5px;
+}
+#navbarSupportedContent{
+    text-align: right;
+}
 .login{
     margin-top: 10px;
 }
