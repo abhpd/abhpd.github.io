@@ -157,12 +157,18 @@ button{
 .signup{
     padding: 3% 5% 5% 5%;
     background-color: white;
+    border-radius: 20px;
+    border: solid;
+    border-width: 5px;
 }
 
 .login{
     margin-top: 0px;
     padding: 3% 5% 5% 5%;
     background-color: white;
+    border-radius: 20px;
+    border: solid;
+    border-width: 5px;
 }
 .login-popup h2{
     color: black;

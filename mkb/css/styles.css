@@ -34,11 +34,7 @@ h2{
     margin-top: 30px;
     margin-bottom: 20px;
 }
-.navbar h1{
-    font-family: 'Montserrat-black',sans-serif;
-    font-weight: bolder;
-    transform: scale(1);
-}
+
 .banner{
     padding-top: 200px;
     padding-bottom: 200px;
@@ -72,6 +68,11 @@ h2{
     padding-right: 10%;
     padding-left: 10%;
     padding-bottom: 30px;
+}
+.navbar h1{
+    font-family: 'Montserrat-black',sans-serif;
+    font-weight: bolder;
+    transform: scale(1);
 }
 .nav-item a{
     padding-left: 10px;

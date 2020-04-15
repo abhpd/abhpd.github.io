@@ -25,9 +25,20 @@ h1{
     padding-left: 10%;
     padding-bottom: 30px;
 }
-div.navlinks a{
+.navbar h1{
+    font-family: 'Montserrat-black',sans-serif;
+    font-weight: bolder;
+    transform: scale(1);
+}
+.nav-item a{
     padding-left: 10px;
     padding-right: 10px;
+}
+.nav-item{
+    margin: 5px;
+}
+#navbarSupportedContent{
+    text-align: right;
 }
 .footer{
     margin: 0px;
@@ -39,17 +50,53 @@ div.navlinks a{
 /*Question-box*/
   
 .questioncard{
+    height: 400px;
     text-align: center;
     background-color: black;
     color: white;
     margin: 100px;
     padding: 100px;
-    border-radius: 5%;
+    border-radius: 20px;
+}
+.mcqcard{
+    text-align: center;
+}
+.options h3{
+    width: 300px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .options h3:hover{
+    border-radius: 5px;
+    background-color: rgb(65, 65, 65);
+    color: white;
+}
+.options h3:active{
+    border-radius: 5px;
     background-color: white;
     color: black;
 }
 .que{
     margin-bottom: 40px;
+}
+.submit{
+    margin-top: 30px;
+}
+.previous-button{
+    color: grey;
+    transform: rotate(90deg);
+    transform: scale(2);
+    position: absolute;
+    bottom: 290px;
+    left: 5%;
+}
+.next-button{
+    color: grey;
+    text-align: right;
+    transform: rotate(270deg);
+    transform: scale(2);
+    position: absolute;
+    bottom: 290px;
+    left: 90%;
 }
