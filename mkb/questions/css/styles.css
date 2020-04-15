@@ -38,3 +38,18 @@ div.navlinks a{
 
 /*Question-box*/
   
+.questioncard{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 100px;
+    padding: 100px;
+    border-radius: 5%;
+}
+.options h3:hover{
+    background-color: white;
+    color: black;
+}
+.que{
+    margin-bottom: 40px;
+}

@@ -22,17 +22,22 @@ h1{
     font-size: 2rem;
 }
 .navbar{
-    background-color: none;
-    padding-top: 30px;
-    padding-right: 10%;
-    padding-left: 10%;
-    padding-bottom: 30px;
+  background-color: none;
+  padding-top: 30px;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-bottom: 30px;
 }
-div.navlinks a{
-    padding-left: 10px;
-    padding-right: 10px;
+.nav-item a{
+  padding-left: 10px;
+  padding-right: 10px;
 }
-
+.nav-item{
+  margin: 5px;
+}
+#navbarSupportedContent{
+  text-align: right;
+}
 /*chat css*/
 
 * {
