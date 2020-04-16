@@ -6,14 +6,14 @@ a:hover{
     text-decoration: none;
 }
 body{
-    background-color: #ffffff;
+    background-color: #bfe5e1;
 }
 h1{
     font-family: 'Montserrat-black',sans-serif;
     font-weight: bolder;
 }
 .banner{
-    background-color: #ffffff;
+    background-color: #bfe5e1;
     padding-top: 150px;
     padding-bottom: 150px;
     text-align: center;
@@ -50,12 +50,12 @@ h1{
 /*Question-box*/
   
 .questioncard{
-    height: 400px;
+    height: 450px;
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color: #009688;
+    color: #f6f6f6;
     margin: 100px;
-    padding: 100px;
+    padding: 100px 50px 100px 50px;
     border-radius: 20px;
 }
 .mcqcard{
@@ -66,37 +66,53 @@ h1{
     margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
+    border: dotted;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 5px;
 }
 .options h3:hover{
     border-radius: 5px;
     background-color: rgb(65, 65, 65);
-    color: white;
+    color: #f6f6f6;
 }
 .options h3:active{
     border-radius: 5px;
-    background-color: white;
+    background-color: #f6f6f6;
     color: black;
 }
 .que{
     margin-bottom: 40px;
 }
 .submit{
-    margin-top: 30px;
+    margin-top: 60px;
 }
-.previous-button{
-    color: grey;
-    transform: rotate(90deg);
-    transform: scale(2);
+
+.quebtn{
     position: absolute;
-    bottom: 290px;
-    left: 5%;
 }
-.next-button{
-    color: grey;
-    text-align: right;
-    transform: rotate(270deg);
-    transform: scale(2);
-    position: absolute;
-    bottom: 290px;
-    left: 90%;
+.quebtn:active{
+    color: white;
+}
+.prev{
+    left: 10%;
+    top:55%;
+}
+.next{
+    right:10%;
+    top: 55%;
+}
+
+/* form css */
+
+input {
+    visibility:hidden;
+}
+label {
+    cursor: pointer;
+}
+input:checked + label {
+    border-radius: 5px;
+    background-color: #f6f6f6;
+    color: black;
 }
