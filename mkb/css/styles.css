@@ -10,7 +10,7 @@ a{
     animation: bgcolor 60s linear infinite;
 }
 a:hover{
-    color: grey;
+    color: black;
     text-decoration: none;
 }
 .btn{
@@ -80,6 +80,9 @@ h2{
 }
 .nav-item{
     margin: 5px;
+}
+.nav-item:hover{
+    color: black;
 }
 #navbarSupportedContent{
     text-align: right;
