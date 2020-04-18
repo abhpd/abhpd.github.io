@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 a{
     color: black;
 }
@@ -6,7 +9,9 @@ a:hover{
     text-decoration: none;
 }
 body{
-    background-color: #bfe5e1;
+    z-index: 0;
+    background-color: white;
+    animation: bgcolor 60s linear infinite;
 }
 h1{
     font-family: 'Montserrat-black',sans-serif;
@@ -19,11 +24,15 @@ h1{
     text-align: center;
 }
 .navbar{
+    z-index: 100;
+    width: 100%;
+    position: fixed;
     background-color: none;
     padding-top: 30px;
     padding-right: 10%;
     padding-left: 10%;
     padding-bottom: 30px;
+    background: rgba(255, 255, 255, 0.7);
 }
 .navbar h1{
     font-family: 'Montserrat-black',sans-serif;
@@ -45,28 +54,60 @@ h1{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    background-color: white;
 }
 
-/*Question-box*/
-  
-.questioncard{
-    height: 450px;
-    text-align: center;
-    background-color: #009688;
-    color: #f6f6f6;
-    margin: 100px;
-    padding: 100px 50px 100px 50px;
-    border-radius: 20px;
+
+/*  Que form field  */
+.quebtn{
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.5;
+    color: white;
+    animation: standby 2s linear infinite;
 }
-.mcqcard{
+.quebtn:hover{
+    opacity: 1;
+    color: white;
+}
+.quebtn:active{
+    opacity: 0.5;
+    color: black;
+}
+.quebtn p{
+    margin: 5px;
+    position: relative;
+    right: 40%;
+}
+.prev{
+    top: 15%;
+    transform: translateY(0%);
+}
+.next{
+    bottom: 0%;
+    transform: translateY(-100%);
+}
+.que-form-field{
     text-align: center;
 }
+.que-form-field h1{
+    color: white;
+}
+.que{
+    padding: 10%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
 .options h3{
     width: 300px;
     margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
-    border: dotted;
+    border: dashed;
+    color: white;
     border-color: white;
     border-width: 1px;
     border-radius: 5px;
@@ -81,38 +122,109 @@ h1{
     background-color: #f6f6f6;
     color: black;
 }
-.que{
-    margin-bottom: 40px;
-}
-.submit{
-    margin-top: 60px;
-}
-
-.quebtn{
-    position: absolute;
-}
-.quebtn:active{
-    color: white;
-}
-.prev{
-    left: 10%;
-    top:55%;
-}
-.next{
-    right:10%;
-    top: 55%;
-}
-
-/* form css */
-
 input {
     visibility:hidden;
+    position: absolute;
 }
 label {
     cursor: pointer;
 }
 input:checked + label {
     border-radius: 5px;
-    background-color: #f6f6f6;
+    background-color: darkgrey;
+}
+.thankyou-submit{
+    position: relative;
+    text-align: center;
+    background-color: white;
     color: black;
+    height: 75vh;
+}
+.thankyou-submit h1{
+    color: black;
+}
+.thankyou-submit button{
+    position: relative;
+    bottom: 20%;
+}
+/* Question bg color */
+
+.colour1{
+    background-color: #E74C3C;
+}
+.colour2{
+    background-color: rgb(156, 41, 28);
+}
+.colour3{
+    background-color: rgb(238, 147, 0);
+}
+.colour4{
+    background-color: #157a29;
+}
+.colour5{
+    background-color: rgb(96, 163, 19);
+}
+.colour6{
+    background-color: rgb(26, 115, 194);
+}
+.colour7{
+    background-color: #AB47BC;
+}
+
+/* #que8{
+    background-color: #E74C3C;
+}
+#que9{
+    background-color: rgb(156, 41, 28);
+}
+#que10{
+    background-color: rgb(238, 147, 0);
+}
+#que11{
+    background-color: #157a29;
+}
+#que12{
+    background-color: rgb(96, 163, 19);
+}
+#que13{
+    background-color: rgb(26, 115, 194);
+} */
+
+@keyframes bgcolor {
+    0% {
+        background-color: #E74C3C;
+    }
+    14.2%{
+        background-color: rgb(156, 41, 28);
+    }
+    28.4%{
+        background-color: rgb(238, 147, 0);
+    }
+    42.6% {
+        background-color: #157a29;
+    }
+    56.8%{
+        background-color: rgb(96, 163, 19);
+    }
+    71% {
+        background-color: rgb(26, 115, 194);
+    }
+    85.2% {
+        background-color: #AB47BC;
+    }
+    100%{
+        background-color: #E74C3C;
+    }
+}
+
+@keyframes standby{
+    0%{
+        opacity: 0.3;
+    }
+    50%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity: 0.3;
+    }
 }

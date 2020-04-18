@@ -1,0 +1,118 @@
+a{
+    color: black;
+}
+a:hover{
+    color: grey;
+    text-decoration: none;
+}
+body{
+    background-color: #bfe5e1;
+}
+h1{
+    font-family: 'Montserrat-black',sans-serif;
+    font-weight: bolder;
+}
+.banner{
+    background-color: #bfe5e1;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+.navbar{
+    background-color: none;
+    padding-top: 30px;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 30px;
+}
+.navbar h1{
+    font-family: 'Montserrat-black',sans-serif;
+    font-weight: bolder;
+    transform: scale(1);
+}
+.nav-item a{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.nav-item{
+    margin: 5px;
+}
+#navbarSupportedContent{
+    text-align: right;
+}
+.footer{
+    margin: 0px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*Question-box*/
+  
+.questioncard{
+    height: 450px;
+    text-align: center;
+    background-color: #009688;
+    color: #f6f6f6;
+    margin: 100px;
+    padding: 100px 50px 100px 50px;
+    border-radius: 20px;
+}
+.mcqcard{
+    text-align: center;
+}
+.options h3{
+    width: 300px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: dotted;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+}
+.options h3:hover{
+    border-radius: 5px;
+    background-color: rgb(65, 65, 65);
+    color: #f6f6f6;
+}
+.options h3:active{
+    border-radius: 5px;
+    background-color: #f6f6f6;
+    color: black;
+}
+.que{
+    margin-bottom: 40px;
+}
+.submit{
+    margin-top: 60px;
+}
+
+.quebtn{
+    position: absolute;
+}
+.quebtn:active{
+    color: white;
+}
+.prev{
+    left: 10%;
+    top:55%;
+}
+.next{
+    right:10%;
+    top: 55%;
+}
+
+/* form css */
+
+input {
+    visibility:hidden;
+}
+label {
+    cursor: pointer;
+}
+input:checked + label {
+    border-radius: 5px;
+    background-color: #f6f6f6;
+    color: black;
+}
