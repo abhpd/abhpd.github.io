@@ -28,6 +28,11 @@ h1{
   padding-left: 10%;
   padding-bottom: 30px;
 }
+.navbar h1{
+  font-family: 'Montserrat-black',sans-serif;
+  font-weight: bolder;
+  transform: scale(1);
+}
 .nav-item a{
   padding-left: 10px;
   padding-right: 10px;
@@ -35,9 +40,13 @@ h1{
 .nav-item{
   margin: 5px;
 }
+.nav-item:hover{
+  color: black;
+}
 #navbarSupportedContent{
   text-align: right;
 }
+
 /*chat css*/
 
 * {
