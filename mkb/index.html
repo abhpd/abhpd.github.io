@@ -1,83 +1,119 @@
 <!DOCTYPE html>
-<html>
+<html lang="zxx">
     <head>
-        <title>MANN KI BAAT - Login or Signup</title>
-            <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800,900&display=swap" rel="stylesheet">
-            <script src="https://kit.fontawesome.com/c00227cd9f.js" crossorigin="anonymous"></script>
-            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-            <link rel="stylesheet" href="css/styles.css">
-            <link rel="stylesheet" href="css/backgroundani.css">
-
-            <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+        <title> Man-Ki-Baat.pvt.ltd </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" >
+        <script src="https://kit.fontawesome.com/8603528244.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     </head>
     <body>
-    <div class="all">
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <a href="#" class="title"><h1>MANN KI BAAT</h1></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-        
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active"><a href="index.html">Home</a></li>
-                <li class="nav-item"><a href="login.html">Login</a></li>
-                <li class="nav-item"><a href="chat/chat.html">Chat</a></li>
-                <li class="nav-item"><a href="questions/questions.html">Questions</a></li>
-                <li class="nav-item"><a href="#aboutsection">About Us</a></li>
-              </ul>
-            </div>
-        </nav>
-        <div class="banner">
-            <section class="wrapper">
-                <div id="stars"></div>
-                <div id="stars2"></div>
-                <div id="stars3"></div>
+        <!--header-->
+        <header>        
+            <section class="mynavbar" >
+               <div class="row">
+                   <div class="col-lg-12 col-md-12 col-sm-12 hidden-xs">
+                    <nav>
+                        <a href="" class="logo"><img src="img\mkb.png" ></a>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#how-it-works">How it Works</a></li>
+                            <li><a href="#service">Service</a></li>
+                            <li><a href="">PROFILE</a></li>
+                        </ul>
+                    </nav>
+                   </div>
+                </div>
             </section>
-            <h1>Your health matters.</h1>
-            <h2>Signup or Login to continue.</h2>
-            <div class="login">
-                <a href="login.html"><button class="btn btn-outline-light btn-lg">Signup</button></a>
-                <a href="login.html"><button class="btn btn-outline-light btn-lg">Login</button></a>
-            </div>
-        </div>
-        <div class="selfquestions cardd">
-            <h1 class="banner-quote"></h1>
+            <script>
+            $(document).ready(function(){
+                $(window).scroll(function(){
+                    var scroll = $(window).scrollTop();
+                    if (scroll > 5) {
+                      $(".mynavbar").css("background" , "#0003");
+                    }
+              
+                    else{
+                        $(".mynavbar").css("background" , "");  	
+                    }
+                })
+              })
+            </script>
+        </header>
+        <!--header ends-->
+        <div class="mainflow">
+        <!--man ki baat section-->
+        <section class="mankibaat">
             <div class="row">
-                <div class="col-lg-6"><h3><div class="feeling">Feeling</div> Anxious?</h3></div>
-                <div class="col-lg-6"><h3><div class="feeling">Too much of</div> Stress?</h3></div>
+                <a href="#" class="mkbcloud"><img src="img/cloud.png"></a>
+                <div class="col-6">
+                    <div class="mkbtext">
+                       <div class="container">
+                        <h1>Man Ki Baat.</h1>
+                        <h2>Who are We <span> ? </span></h2>
+                        <p> Une école est le lieu où nous obtenons des connaissances.<br>
+                            C'est comme un lieu saint pour les élèves.Et les professeurs<br>
+                             sont nos dieux. Mon école est très belle. Le nom de mon école<br>
+                              est ABC. C'est dans la ville XYZ. C'est avoir 150 chambres.<br>
+                               Mes professeurs sont aussi très compétents. Il y a 4000 <br>
+                               élèves dans notre école. 
+                            J'aime mon école.<br><br>
+                            <a href="#"class="btn btn-half">Signup</a>
+                            <a href="#"class="btn btn-full">Login</a><br>
+                        </p>
+                       </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <a href="#" class="brain"><img src="img/brain.png"></a>
+                </div>
             </div>
-            <h3><div class="feeling">Can't take it anymore?</div></h3>
-            <h3>Don't worry.<br>We are here for You!</h3>
-        </div>
-        <div class="welcomenote cardd">
-            <h3>Welcome to Mann Ki Baat.</h2>
-            <h2>Find happiness and feel Alive.</h2>
-        </div>
-        <div class="mission cardd">
-            <h3>Our mission</h3>
-            <h2>To make you fall in love with your life.</h3>
-        </div>
-        <div id="aboutsection" class="about cardd">
-            <h2>About us</h2>
-            <h4>Our team came up with the idea of creating an Artificial Intelligence based ‘Pocket Doctor’ that could function as a supplement to detect, predict and prevent depression. He was inspired to solve this problem, which, according to a WHO report, annually claims lives of 4.4 billion people in the world by suicide.</h4>
-            <h2>Promise to you.</h2>
-            <h4>At MANN KI BAAT we not only aim to treat you in the best way possible, but also make you socially strong and happy. Be it stress, anxiety or depression, we help our users to see beyond their problems, and focus on the joy of life. Take the test now and help us help you!</h4>
-            <h3>“The universe lies within you.”</h3>
-            <div class="learnmore">
-                <a href="knowmore.html">How it Works?</a>
+        </section>
+        <!--man ki baat section ends-->
+        <!--section seprating clouds-->
+        <div class="seperatingclouds">
+            <div class="row cloudrow">
+                <div class="col col-lg-4 col-md-4 one-cloud">
+                    <img src="img/cloud.png">
+                </div>
+            
+                <div class="col col-lg-4 col-md-4 one1-cloud">
+                    <img src="img/cloud1.png">
+                </div>
+            
+                <div class="col col-lg-4 col-md-4 one2-cloud">
+                    <img src="img/cloud.png">
+                </div>
             </div>
         </div>
-        <div class="footer">
-            <div class="login">
-                <a href="login.html"><button class="btn btn-outline-light btn-lg">Signup</button></a>
-                <a href="login.html"><button class="btn btn-outline-light btn-lg">Login</button></a>
+        <!--clouds ends-->
+        <!--how it works section-->
+        <section class="how-it-works">
+            <div class="row">
+                <div class="col-5">
+                    <div class="hwtext">
+                       <div class="container">
+                        <h1>How it<br>Works. &nbsp; <a href=""><i class="fa fa-chevron-circle-right"></i></a></h1>
+                        <p> Une école est le lieu où nous obtenons des connaissances.<br>
+                            C'est comme un lieu saint pour les élèves.Et les professeurs<br>
+                             sont nos dieux. Mon école est très belle. Le nom de mon école<br>
+                              est ABC. C'est dans la ville XYZ. C'est avoir 150 chambres.<br>
+                               Mes professeurs sont aussi très compétents. Il y a 4000 <br>
+                               élèves dans notre école. 
+                            J'aime mon école.<br><br> 
+                            
+                        </p>
+                       </div>
+                    </div>
+                </div>
             </div>
-            <p>Copyright @ 2020 MannKiBaat</p>
+        </section>
+        <!--how it works section ends-->
         </div>
-    </div>
+        <!--waves-->
+
     </body>
 </html>
