@@ -34,20 +34,24 @@
     padding-left:15px;
     
 }
-.mynavbar li a{
+
+.mynavbar .def-btn{
+    width:fit-content;
     color:whitesmoke;
     background-color: rgb(241, 54, 91);
-    padding:6px;
-    border-radius: 5px;
+    padding:4px;
+    border-radius: 6%;
     font-family: sans-serif;
     transition: all 0.5s ease-in;
     z-index: 4;
     box-shadow: 2px 2px 2px black;
 }
-.mynavbar li a:hover{
+
+.mynavbar .def-btn:hover{
     background-color: crimson;
+    color: blanchedalmond;
     transition: ease-in-out;
-    padding: 8px;
+    padding: 5px;
 }
 /* man ki baat section*/
 .mankibaat{ 
@@ -101,8 +105,8 @@
     margin-right: 20%;    
 }
 .mkbtext .btn-half:hover{
-    background-color: rgb(218, 45, 80);
-    color: rgb(255, 251, 251);
+    background-color: rgb(190, 29, 61);
+    color: blanchedalmond;
     transition: ease-in-out;
 }
 .mkbtext .btn-full{
@@ -113,7 +117,7 @@
 }
 .mkbtext .btn-full:hover{
     background-color: rgb(230, 222, 222);
-    color:rgb(219, 19, 59) ;
+    color:rgb(187, 16, 50) ;
 }
 .brain{ position: absolute;
     margin-right: 15%;
@@ -154,7 +158,7 @@
 }
 
 .hwtext{
-    margin-top: 65%;
+    margin-top: 50%;
     margin-left: 20%;
     padding-bottom: 20%;
 }
@@ -171,6 +175,11 @@
 .hwtext .fa{
     width: 10%;
     font-size: 100px;
+}
+.hwimg{ float: right;
+    margin-right:-20%;
+    margin-top: 70%;
+    width: 80%;
 }
 /* section sepration waves*/
 .upper-wave1{
@@ -217,6 +226,11 @@
     color: black;
     width: 10%;
     font-size: 100px;
+}
+.serviceimg{ float: right;
+    margin-right:-20%;
+    margin-top: 45%;
+    width: 80%;
 }
 /* therapy section*/
 .therapy{
@@ -318,6 +332,11 @@
 .speaktext .fa{
     width: 10%;
     font-size: 100px;
+}
+.speakimg{ float: right;
+    margin-right:-7%;
+    margin-top: 60%;
+    width: 60%;
 }
 .upper-wave2{
     position: absolute;
