@@ -307,6 +307,11 @@
     width: 10%;
     font-size: 100px;
 }
+.blogimg{ float: right;
+    margin-right:-20%;
+    margin-top: 45%;
+    width: 80%;
+}
 /* speak-your-man-ki-baat section*/
 .speak{
     width: 100%;
