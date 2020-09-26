@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap");
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+a:hover {
+    color: skyblue;
+}
+hr {
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+.desktop {
+    display: block;
+}
+.mobile {
+    display: none;
+}
+.padding {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.parent {
+    width: 100%;
+    overflow: hidden;
+}
+.link-bar {
+    width: 100%;
+    height: 50px;
+    /* background-color: rgb(179, 179, 179); */
+    background-color: none;
+    position: fixed;
+    z-index: 1;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+.link-group {
+    text-align: right;
+    margin-top: 10px;
+}
+.link-group a {
+    margin: auto 8px;
+    color: rgb(97, 97, 97);
+    font-family: "Montserrat", sans-serif;
+    text-shadow: 3px 3px white;
+}
+.link-group a:hover {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.dropdown button {
+    color: rgb(97, 97, 97);
+    background-color: none;
+    /* border-color: black; */
+    border-color: rgb(97, 97, 97);
+    border-width: 2px;
+}
+.dropdown button:hover {
+    color: black;
+    border-color: black;
+}
+.logo-group {
+    font-family: "Pacifico", cursive;
+}
+.logo-group h2 {
+    color: black;
+    margin-top: 5px;
+    text-shadow: 5px 5px white;
+}
+.logo-group a:hover {
+    text-decoration: none;
+}
+.logo-group:hover {
+    animation: bounce 0.8s;
+}
+.div1 {
+    width: 100%;
+    height: 620px;
+    /* padding: 0px 5%; */
+    padding-top: 240px;
+    background-image: url("./assets/img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+}
+
+.div1 h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    transform: scale(2.5);
+}
+
+.shortintro-block {
+    margin-top: 30px;
+}
+.shortintro-block h5 {
+    font-family: "Montserrat", sans-serif;
+}
+.action-links {
+    margin-top: 40px;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+}
+.action-links a {
+    color: gray;
+}
+.action-links a:hover {
+    text-decoration: none;
+}
+/* DIV -2 */
+.text-para {
+    margin-top: 70px;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+}
+.text-para h1 {
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    margin: 30px 0px 30px 0px;
+}
+.text-para p {
+    font-size: 20px;
+}
+.pp {
+    margin: 100px 0px 30px 0px;
+    width: 100%;
+    text-align: center;
+}
+.pp img {
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+    animation: breathing 5s ease-out infinite normal;
+}
+.pp h1 {
+    margin-top: 50px;
+}
+.div2 {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+.last-div {
+    margin: 100px 0;
+    text-align: right;
+    height: auto;
+    background-color: white;
+}
+.last-div h1 {
+    margin-top: 30px;
+    /* height: 50px; */
+    font-family: "Mrs Saint Delafield", cursive;
+}
+.last-div p {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+}
+.last-div .row {
+    margin-left: 30px;
+}
+.last-div i {
+    margin: 10px;
+    text-shadow: 1px 1px 5px grey;
+}
+.last-div i:hover {
+    transform: scale(1.5);
+    text-shadow: 2px 2px 5px grey;
+}
+.last-div a {
+    color: black;
+}
+.last-div a:hover {
+    color: black;
+}
+footer {
+    text-align: center;
+    font-family: "Pacifico", cursive;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+    .padding {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+    .div1 h1 {
+        transform: scale(2);
+    }
+    .action-links h5:hover {
+        color: black;
+        text-decoration: underline;
+    }
+    .selected-action-link {
+        color: black;
+        text-decoration: underline;
+    }
+    .last-div .row {
+        margin: 0px;
+    }
+}
+@media only screen and (min-width: 769px) {
+    .action-links h5:hover {
+        color: black;
+        transform: scale(1.2);
+        font-weight: 600;
+    }
+    .selected-action-link {
+        color: black;
+        transform: scale(1.2);
+        font-weight: 600;
+    }
+}
+
+/* COLORS */
+.greycolor {
+    color: rgb(97, 97, 97);
+}
+.blackcolor {
+    color: black;
+}
+
+/* Animations */
+@keyframes bounce {
+    0%,
+    20%,
+    60%,
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+
+    80% {
+        -webkit-transform: translateY(10px);
+        transform: translateY(10px);
+    }
+}
+
+@-webkit-keyframes breathing {
+    0% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+
+    25% {
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+
+    50% {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    75% {
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes breathing {
+    0% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+
+    25% {
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+
+    50% {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    75% {
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+}
